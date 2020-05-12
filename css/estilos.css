@@ -1,0 +1,35 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/08/13/24/scrapbook-1962913_960_720.jpg');
+    background-size: auto 100vh;
+    height: 100vh;
+    font-family: Arial;
+  }
+  
+  .menu {
+    background-color: white; 
+  }
+  a{
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .menu li {
+    list-style: none;
+  }
+  .site-title,.site-subtitle {
+    text-decoration: underline;
+    text-align: center;
+    color: green;
+  }
+  .site-subtitle{
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
